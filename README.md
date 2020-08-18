@@ -1,5 +1,11 @@
 # react-admin([尝试一下在线编辑](https://codesandbox.io/s/react-admin-u9kdb))
 
+
+## 这是我基于这位大佬的项目 修修改改的一个模板 仅用于我个人的练习以及开发
+
+
+
+
 react-admin system solution
 
 <img src="https://raw.githubusercontent.com/yezihaohao/react-admin/master/screenshots/logo.png" alt="logo" width="150" height="53" />

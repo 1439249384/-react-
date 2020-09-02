@@ -2,7 +2,7 @@
  * Created by hao.cheng on 2017/4/16.
  */
 import React from 'react';
-import { Form, Icon, Input, Button, Checkbox } from 'antd';
+import { Form, Icon, Input, Button } from 'antd';
 import { connectAlita } from 'redux-alita';
 import { withRouter } from 'react-router-dom';
 import {login} from '../../axios/login';
@@ -34,7 +34,6 @@ class Login extends React.Component {
                 })
             }
         });
-        
     };
     render() {
         const { getFieldDecorator } = this.props.form;

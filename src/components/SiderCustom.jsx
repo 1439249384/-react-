@@ -70,7 +70,9 @@ class SiderCustom extends Component {
                 collapsed={collapsed}
                 style={{ overflowY: 'auto' }}
             >
-                <div className="logo" />
+                <div className="logo" >
+                    <img style={{width:'129px',height:'inherit'}} src={[require('../style/imgs/logo.png')]} alt=""/>
+                </div>
                 <SiderMenu
                     menus={routes.menus}
                     onClick={this.menuClick}
